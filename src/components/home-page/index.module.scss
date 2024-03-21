@@ -1,0 +1,144 @@
+@import '@/styles/_vars.scss';
+
+.main_container {
+    background: $background-color-1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_block {
+    padding: 80px 222px 0;
+    background: $background-color-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom:  1px solid $border-color-1;
+}
+
+.title {
+    color: $text-color-1;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    max-width: 792px;
+}
+
+.buttons {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.description {
+    max-width: 792px;
+    color: $text-color-1;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboard_page_image {
+    margin-top: 80px;
+    width: 996px;
+}
+
+.how_works_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 0;
+    margin: 0 auto;
+    width: 996px;
+}
+
+.how_works_title {
+    color: $text-color-1;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+}
+
+.explanation_block_list {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 125px
+}
+
+.explanation_block {
+    height: 326px;
+    display: flex;
+    align-items: center;
+}
+
+.explanation_reversed {
+    flex-direction: row-reverse;
+}
+
+.explanation_left_block {
+    display: flex;
+    gap: 38px;
+}
+
+.explanation_number_block {
+    position: relative;
+}
+
+.explanation_number {
+    padding: 16px;
+    background: $background-color-2;
+    border-radius: 50%;
+    color: $text-color-3;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 64px;
+    height: 64px;
+}
+
+.explanation_info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 384px;
+}
+
+.explanation_title {
+    color: $text-color-1;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+}
+
+.explanation_description {
+    color: $text-color-1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.explanation_image {
+    margin-left: auto;
+}
+
+.explanation_image_reversed {
+    margin-right: auto;
+}
+
+.flow_line {
+    position: absolute;
+    width: 510px;
+    left: 32px;
+    top: 128px;
+}
+
+.flow_line_reversed {
+    transform: rotateY(180deg) translateX(100%);
+}
