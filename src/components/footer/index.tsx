@@ -1,7 +1,7 @@
 import css from './index.module.scss'
 import Image from 'next/image'
 import cn from "classnames";
-import copyrights from "../../../public/assets/home/copyrights.svg";
+import logo from "../../../public/assets/logo.svg";
 
 export const Footer = () => {
   return (
@@ -9,10 +9,9 @@ export const Footer = () => {
         <div className={cn(css.copyrights)} >
             <div className={cn(css.copyrights_header)}>
                 <Image
-                    src={copyrights}
+                    src={logo}
                     alt="copyrights"
                 />
-                <span>Financial</span>
             </div>
             <div className={cn(css.copyrights_desc)}>© 2023 Connectives Financial.</div>
             <div className={cn(css.copyrights_desc)}>All rights reserved</div>
