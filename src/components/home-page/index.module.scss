@@ -134,7 +134,7 @@
 
 .flow_line {
     position: absolute;
-    width: 510px;
+    min-width: 510px;
     left: 32px;
     top: 128px;
 }
